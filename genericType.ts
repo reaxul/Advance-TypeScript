@@ -29,7 +29,7 @@
     type GenericTuple<T, U> = [T, U];
     const tuple: GenericTuple<string, number> = ["sajjad", 22];
     const tuple2: GenericTuple<number, string> = [22, "sajjad"];
-    
+
     const userTuple: GenericTuple<string, { name: string, age: number }> =
         [
             "sajjad",
@@ -38,11 +38,6 @@
                 age: 22
             }
         ];
-
-
-
-
-
 
 
 
