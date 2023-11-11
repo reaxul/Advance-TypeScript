@@ -24,16 +24,16 @@
     const res4 = createArrWithTuple<number, string>(5, "hello");
     const res5 = createArrWithTuple<number, { name: string, id: number }>(5, { name: "hello", id: 5 });
 
-
+    //constraints
     const addCourseToStudent = <T extends { name: string, age: number }>(student: T, course: string): T => {
         return { ...student, course }
     }
 
 
     const student1 = addCourseToStudent({ name: "sajjad", age: 22 }, "typescript")
-    
 
 
 
-    
+
+
 }
